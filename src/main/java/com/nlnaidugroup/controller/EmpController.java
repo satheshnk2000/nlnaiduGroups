@@ -22,7 +22,7 @@ public class EmpController {
 	@Autowired
 	EmpService empService;
 
-	@RequestMapping("/emp")
+	@RequestMapping("/emp/getAll")
 	public List<EmployeeVO> getEmpDetails() {
 		return empService.getEmpDetails();
 	}
