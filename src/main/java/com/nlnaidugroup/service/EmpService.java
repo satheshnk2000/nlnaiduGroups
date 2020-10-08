@@ -72,11 +72,6 @@ System.out.println("Hello------+"+emp.getEmpName());
 		return empVo;
 	}
 
-	// public void editEmp(EmployeeVO emp) {
-	// empDao.editEmp(getEmp(emp));
-	// // return getEmpVO(emp);
-	// }
-
 	private Employee getEmp(EmployeeVO empVo) {
 		Employee emp = new Employee();
 		emp.setEmpId(empVo.getEmpId());
