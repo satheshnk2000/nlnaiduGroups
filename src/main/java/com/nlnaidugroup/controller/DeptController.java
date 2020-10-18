@@ -20,7 +20,7 @@ public class DeptController {
 	@Autowired
 	DeptService deptService;
 
-	@GetMapping("/depts")
+	@GetMapping("/deptList")
 	public List<Department> greeting() {
 		return deptService.getDeptList();
 	}
